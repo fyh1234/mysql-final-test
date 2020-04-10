@@ -168,6 +168,9 @@ deptno, deptno,    loc
 ```SQL
 	alter table t_dept2 add foreign key(deptno) references t_dept1(deptno);
 ```
+```
+这样做使得表1成为主表，表2成为副表，表中的记录被副表引用时，主表不可以被删除。
+```
 ## 结果如下：
 ![](https://github.com/fyh1234/mysql-final-test/blob/master/%E5%A4%96%E9%94%AE.png)
 3.9 为表2增加一个索引：ename 字段。简述为什么要在 ename 字段建立索引
