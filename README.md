@@ -128,7 +128,7 @@ deptno, deptno,    loc
 3.3 有几种职位（job字段）？在关系代数中，本操作是什么运算？
 
 ```
-	
+答：有六种职位。选择运算。
 ```
 
 3.4 将 MILLER 的 comm 增加 100； 然后，找到 comm 比 MILLER 低的人；
@@ -162,7 +162,7 @@ deptno, deptno,    loc
 3.8 为表2增加一个约束：deptno字段需要在表1中存在；这称做什么完整性？
 
 ```SQL
-	
+	alter table t_dept2 add foreign key(deptno) references t_dept1(deptno);
 ```
 ## 结果如下：
 ![](     )
