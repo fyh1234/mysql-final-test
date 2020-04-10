@@ -22,6 +22,7 @@
 ```
 ## 结果如下：
 ![](https://github.com/fyh1234/mysql-final-test/blob/master/1.png)
+
 2 组合打印自己的姓名和学号
 
 (例如 张三+123456 或者 zhangsan+123456 显示需包含加号)，写出SQL语句和结果
@@ -32,6 +33,7 @@
 
 ## 结果如下：
 ![](https://github.com/fyh1234/mysql-final-test/blob/master/2.png)
+
 3 建立如下表1和表2，写出建表语句和插入语句。
 
 表1：其中deptno为主键
@@ -57,6 +59,7 @@ deptno, deptno,    loc
 ```
 ## 结果如下：
 ![](https://github.com/fyh1234/mysql-final-test/blob/master/3.png)
+
 表2：其中empno字段为主键
 ```
         empno, ename,    job,    MGR,   Hiredate,    sal,   comm, deptno
@@ -104,6 +107,7 @@ deptno, deptno,    loc
 ```
 ## 结果如下：
 ![](https://github.com/fyh1234/mysql-final-test/blob/master/4.png)
+
 3.1 表2 中再插入一条记录：
 
 `(你的学号，你的姓名或者拼音， “CLERK”, 7782, 你的生日,  NULL, NULL, 10)`
