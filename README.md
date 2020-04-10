@@ -169,7 +169,7 @@ deptno, deptno,    loc
 	alter table t_dept2 add foreign key(deptno) references t_dept1(deptno);
 ```
 ## 结果如下：
-![](     )
+![](https://github.com/fyh1234/mysql-final-test/blob/master/%E5%A4%96%E9%94%AE.png)
 3.9 为表2增加一个索引：ename 字段。简述为什么要在 ename 字段建立索引
 
 ```SQL
