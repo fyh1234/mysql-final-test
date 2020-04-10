@@ -21,7 +21,7 @@
 	select now();
 ```
 ## 结果如下：
-![](     )
+![](  https://github.com/fyh1234/mysql-final-test/blob/master/1.png   )
 2 组合打印自己的姓名和学号
 
 (例如 张三+123456 或者 zhangsan+123456 显示需包含加号)，写出SQL语句和结果
