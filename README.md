@@ -138,7 +138,9 @@ deptno, deptno,    loc
 3.4 将 MILLER 的 comm 增加 100； 然后，找到 comm 比 MILLER 低的人；
 
 ```SQL
-	
+	update t_dept2 set comm=100 where ename='MILLER';
+	select * from t_dept2;
+	select ename from t_dept2 where comm<100 or comm is null;
 ```
 ## 结果如下：
 ![](     )
@@ -173,6 +175,7 @@ deptno, deptno,    loc
 ```
 ## 结果如下：
 ![](https://github.com/fyh1234/mysql-final-test/blob/master/%E5%A4%96%E9%94%AE.png)
+
 3.9 为表2增加一个索引：ename 字段。简述为什么要在 ename 字段建立索引
 
 ```SQL
