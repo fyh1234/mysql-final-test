@@ -143,7 +143,8 @@ deptno, deptno,    loc
 	select ename from t_dept2 where comm<100 or comm is null;
 ```
 ## 结果如下：
-![](     )
+![](https://github.com/fyh1234/mysql-final-test/blob/master/3.4.png)
+![](https://github.com/fyh1234/mysql-final-test/blob/master/3.4.1.png)
 3.5 计算每个人的收入(ename, sal + comm)；计算总共有多少人；计算所有人的平均收入。 提示：计算时 NULL 要当做 0 处理； 
 
 ```SQL
