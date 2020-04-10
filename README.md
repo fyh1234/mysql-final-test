@@ -180,10 +180,12 @@ deptno, deptno,    loc
 3.9 为表2增加一个索引：ename 字段。简述为什么要在 ename 字段建立索引
 
 ```SQL
-	
+mysql> create unique index index_ename
+    -> on t_dept2(ename);
+Query OK, 0 rows affected (0.04 sec)	
 ```
-## 结果如下：
-![](     )
+```为了加快检索速度```
+
 3.10 将表2的 sal 字段改名为 salary
 
 ```SQL
