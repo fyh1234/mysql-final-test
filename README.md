@@ -180,10 +180,11 @@ deptno, deptno,    loc
 3.10 将表2的 sal 字段改名为 salary
 
 ```SQL
-	
+	 alter table t_dept2 change sal salary float;
+	 desc t_dept2;
 ```
 ## 结果如下：
-![](     )
+![](https://github.com/fyh1234/mysql-final-test/blob/master/%E6%94%B9%E5%90%8D.png)
 3.11 撰写一个函数 get_deptno_from_empno，输入 empno，输出对应的 deptno。 简述函数和存储过程有什么不同。
 
 ```SQL
