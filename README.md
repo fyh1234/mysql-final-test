@@ -127,7 +127,7 @@ deptno, deptno,    loc
 	 select * from t_dept2 where Hiredate=(select max(hiredate) from t_dept2);
 ```
 ## 结果如下：
-![](     )
+![](https://github.com/fyh1234/mysql-final-test/blob/master/6.png)
 
 3.3 有几种职位（job字段）？在关系代数中，本操作是什么运算？
 
